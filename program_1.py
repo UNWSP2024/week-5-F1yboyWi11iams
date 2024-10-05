@@ -5,7 +5,7 @@
 # The conversion must be done as a function with input and output.
 
 
-def kilometer_conversion(kilometers):    
+def kilometer_conversion(kilometers):
     miles = 0.0
     ######################
     # WRITE YOUR CODE HERE
@@ -24,3 +24,12 @@ if __name__ == '__main__':
     # Call kilometer_conversion
     
     # Display the miles
+
+
+def kilometer_conversion():
+    kilometers = 0.0
+    miles = 0.0
+    kilometers = float(input("Please input a distance in kilometers to see the equivalent value in miles: "))
+    distance_miles = float(0.6214 * kilometers)
+    print(kilometers, " kilometers is equal to ", distance_miles, " miles.")
+kilometer_conversion()

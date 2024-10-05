@@ -32,4 +32,5 @@ def kilometer_conversion():
     kilometers = float(input("Please input a distance in kilometers to see the equivalent value in miles: "))
     distance_miles = float(0.6214 * kilometers)
     print(kilometers, " kilometers is equal to ", distance_miles, " miles.")
+    return miles
 kilometer_conversion()
